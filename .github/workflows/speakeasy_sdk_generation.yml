@@ -19,7 +19,7 @@ jobs:
     with:
       force: ${{ github.event.inputs.force }}
       languages: |
-        - go
+        - typescript
       mode: direct
       openapi_docs: |
         - ./openapi.json
