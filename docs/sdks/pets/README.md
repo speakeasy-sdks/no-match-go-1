@@ -16,7 +16,7 @@ Create a pet
 ```typescript
 import { AccountsTest } from "accounts-test";
 
-(async() => {
+async function run() {
   const sdk = new AccountsTest();
 
   const res = await sdk.pets.createPets();
@@ -24,7 +24,9 @@ import { AccountsTest } from "accounts-test";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -53,7 +55,7 @@ List all pets
 import { AccountsTest } from "accounts-test";
 import { ListPetsRequest } from "accounts-test/dist/models/operations";
 
-(async() => {
+async function run() {
   const sdk = new AccountsTest();
 const limit: number = 21453;
 
@@ -62,7 +64,9 @@ const limit: number = 21453;
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -92,7 +96,7 @@ Info for a specific pet
 import { AccountsTest } from "accounts-test";
 import { ShowPetByIdRequest } from "accounts-test/dist/models/operations";
 
-(async() => {
+async function run() {
   const sdk = new AccountsTest();
 const petId: string = "string";
 
@@ -101,7 +105,9 @@ const petId: string = "string";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters

@@ -1,6 +1,6 @@
 {
   "name": "accounts-test",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "new-test",
   "scripts": {
     "prepare": "tsc --build",
