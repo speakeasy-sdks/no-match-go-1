@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
-  speakeasyVersion: 1.126.0
-  generationVersion: 2.213.3
+  speakeasyVersion: 1.127.0
+  generationVersion: 2.220.0
 generation:
   comments: {}
   sdkClassName: accounts-test
@@ -11,10 +11,12 @@ generation:
   usageSnippets:
     optionalPropertyRendering: withExample
   baseServerURL: ""
+  fixes:
+    nameResolutionDec2023: false
   flattenGlobalSecurity: true
 features:
   typescript:
-    core: 3.3.0
+    core: 3.3.9
     flattening: 2.81.1
     globalServerURLs: 2.82.1
 go:
@@ -24,7 +26,7 @@ go:
   maxMethodParams: 4
   packageName: github.com/speakeasy-sdks/no-match-go-1
 typescript:
-  version: 0.2.0
+  version: 0.2.1
   author: new-test
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
