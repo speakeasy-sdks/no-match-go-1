@@ -5,6 +5,8 @@ generation:
     optionalPropertyRendering: withExample
   fixes:
     nameResolutionDec2023: false
+    parameterOrderingFeb2024: false
+    requestResponseComponentNamesFeb2024: false
   baseServerURL: ""
   flattenGlobalSecurity: true
 go:
@@ -14,7 +16,7 @@ go:
   maxMethodParams: 4
   packageName: github.com/speakeasy-sdks/no-match-go-1
 typescript:
-  version: 0.2.1
+  version: 0.2.2
   author: new-test
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true

@@ -98,7 +98,7 @@ import { ShowPetByIdRequest } from "accounts-test/dist/models/operations";
 
 async function run() {
   const sdk = new AccountsTest();
-const petId: string = "string";
+const petId: string = "<value>";
 
   const res = await sdk.pets.showPetById(petId);
 
