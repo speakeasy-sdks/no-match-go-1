@@ -3,18 +3,18 @@ id: 7a7ed811-6d8f-4e01-92fd-6d31ebdfe68a
 management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.2.2
-  configChecksum: 73255619982007fe62d7fa9e4ada71da
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.2.3
+  configChecksum: 9dd0d0489e554661e36dd5b0007c1a74
   repoURL: https://github.com/speakeasy-sdks/no-match-ts-1.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/no-match-ts-1
 features:
   typescript:
-    core: 3.4.7
+    core: 3.4.8
     flattening: 2.81.1
-    globalServerURLs: 2.82.1
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/pets.ts
   - src/sdk/sdk.ts
